@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1709511491 source:c:\users\laptop\desktop\poo\arraypoo\main.cpp
+	<iostream>
+	<iomanip>
+	<limits>
+	"persona.h"
+
+1709511491 source:c:\users\laptop\desktop\poo\arraypoo\src\persona.cpp
+	"persona.h"
+	<iostream>
+	"persona.h"
+
+1709511427 c:\users\laptop\desktop\poo\arraypoo\include\persona.h
+	<string>
+
