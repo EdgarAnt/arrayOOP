@@ -4,7 +4,7 @@
 #include "persona.h"
 
 void limpiarBuffer() {
-    // Limpiar el b�fer de entrada
+    // Limpiar el búfer de entrada
     std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
     // Limpiar los flags de error
     std::cin.clear();
@@ -34,7 +34,7 @@ int main(){
     				long long tel;
     				cout << "\n";
     				for (int i = 0; i < 5; i++) {
-        				limpiarBuffer();  // Limpiar el b�fer antes de leer el nombre
+        				limpiarBuffer();  // Limpiar el búfer antes de leer el nombre
         				cout << "-------------------------------------------------------------------------------" << endl;
 				        cout << setw(25)<< "Nombre: ";
 				        getline(cin, nom);
@@ -59,9 +59,9 @@ int main(){
 				long long  numero;
     	        cout << "\n----------------------------------------------------------------------------------------" << endl;
         	    cout << "\n"<<setw(25) << "Ingresa un numero: ";
-       	    	limpiarBuffer(); // Limpiar el b�fer antes de leer el n�mero
+       	    	limpiarBuffer(); // Limpiar el búfer antes de leer el número
         	    cin >> numero;
-            	limpiarBuffer(); // Limpiar el b�fer despu�s de leer el n�mero
+            	limpiarBuffer(); // Limpiar el búfer después de leer el número
 
     	        bool encontrado = false;
             	for (int i = 0; i < cantidadElementos; i++) {
@@ -82,7 +82,7 @@ int main(){
             	break;
         	}
             case '3': {
-    // Encontrar la longitud m�xima del nombre para ajustar el ancho del campo
+    // Encontrar la longitud máxima del nombre para ajustar el ancho del campo
             int max_longitud_nombre = 0;//determinar la longitud maxima de los nombres de un arreglo
             for (int i = 0; i < 5; i++) {
                 int longitud_actual = arregloP[i].obtenerNombre().length();//sabes el valor de longitud dedl objeto
@@ -120,3 +120,31 @@ int main(){
 			}
     }while(opcion!='4');
 }
+
+
+//         ░░                    ░░        ██████████  ░░                    ░░
+//                                     ████          ████
+//                                   ████              ████
+// ░░      ░░                    ░░██                      ██░░              ░░
+//         ░░            ░░      ░░██  ██  ██      ██  ██  ██░░      ░░      ░░
+//                               ██    ██              ██    ██
+//                               ██    ██              ██    ██
+// ░░░░░░░░░░░░░░  ░░░░░░░░░░░░██      ██    ██████    ██      ██░░░░░░░░░░░░░░░░░░  ░░░░░░
+//         ░░            ░░    ██    ██        ██        ██    ██    ░░      ░░             .-.
+//                             ██  ████    ██  ██  ██    ████  ██                          /'v'\
+//                               ██  ██      ██  ██      ██  ██                           (/   \)
+//                                     ██              ██                                 ='="="===<
+//                                       ██████████████                              Paullie|_|
+//                                     ██              ██
+//                                     ██              ██
+//                                     ██    ██  ██    ██
+//                                   ████    ██  ██    ████         ~°I'm getting there, I'm being consistent°~
+//       my 3 cats                   ████    ██  ██    ████                    and im enjoyng this
+//     \    /\                     ██  ██    ██  ██    ██  ██
+//      )  ( ')          ░░        ██  ██    ██  ██    ██  ██        ░░
+//      (  /  )                      ████    ██████    ████
+//       \(__)|                    ██    ████      ████    ██
+//   ░░░░░░  ░░░░  ░░░░░░  ░░░░░░  ██████    ░░  ░░    ██████░░░░░░░░  ░░░░░░  ░░░░  ░░░░░░
+//         ░░            ░░      ░░                                  ░░      ░░
+
+//                                                                                  ░░                                  ░░        ░░                        ░░
